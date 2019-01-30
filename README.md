@@ -5,6 +5,9 @@ coordinate the pausing and resuming of code across multiple processes.
 It's implemented in Python 3 using only the standard libraries. The code can
 serve as reference for a faster implementation such as one written in C or Rust.
 
+It's written by Justin Turner Arthur and is licensed under the Apache License
+2.0.
+
 ## Usage
 The primary lock classes are `SocketLock` and `SocketLockThreadSafe`. Like most
 locks in Python, instances can be used as context managers using the `with`
